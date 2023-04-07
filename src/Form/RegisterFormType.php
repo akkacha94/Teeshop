@@ -55,7 +55,7 @@ class RegisterFormType extends AbstractType
                         'message' => 'Ce champ ne peut etre vide : {{ value }}'
                     ]),
                     new Length([
-                        'min' => 6,
+                        'min' => 2,
                         'max' => 180,
                         'minMessage' => 'Votre email doit comporter au minimum {{ limit }} caractéres.',
                         'maxMessage' => 'Votre email doit comporter au maximum{{ limit }} caractéres.'
@@ -83,7 +83,7 @@ class RegisterFormType extends AbstractType
                         'message' => 'Ce champ ne peut etre vide : {{ value }}'
                     ]),
                     new Length([
-                        'min' => 6,
+                        'min' => 2,
                         'max' => 180,
                         'minMessage' => 'Votre email doit comporter au minimum {{ limit }} caractéres.',
                         'maxMessage' => 'Votre email doit comporter au maximum{{ limit }} caractéres.'
@@ -132,7 +132,7 @@ class RegisterFormType extends AbstractType
                     'class' => 'd-block mx-auto col-3 btn btn-warning'
                 ]
             ])
-
+            
 
            
         ;
